@@ -1,0 +1,23 @@
+.button {
+  height: 96%;
+  background-color: rgb(197, 196, 196);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.button_btn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
